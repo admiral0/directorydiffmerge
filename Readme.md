@@ -62,3 +62,21 @@ Or if you don't have currently access to the source directory you can use this v
 ```
 ddm scrub --fixup backup_path/directory backup_path/m1.ddm backup_path/m2.ddm
 ```
+
+### Running the test suite
+Install [tox](https://tox.wiki/en/latest/installation.html). You will need python version 3.10 installed.
+
+For fedora 37+:
+```
+sudo dnf install tox python3
+```
+
+For debian/ubuntu:
+```
+sudo apt install python3 tox
+```
+
+To run test suite execute in the current directory:
+```
+tox
+```

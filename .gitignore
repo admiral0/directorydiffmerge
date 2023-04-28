@@ -1,3 +1,7 @@
 build
 cmake-build-*
 .idea
+# pytest stuff
+*.egg-info
+.pytest_cache
+test-suite/__pycache__/
